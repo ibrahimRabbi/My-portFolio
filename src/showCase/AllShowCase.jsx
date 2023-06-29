@@ -1,16 +1,25 @@
- 
+import { useEffect,useState } from 'react';
 import TitleBar from '../utility/TitleBar';
-import ShowCase1 from './ShowCase1';
-import ShowCase2 from './ShowCase2';
-import ShowCase3 from './ShowCase3';
+import ShocaseCard from './ShocaseCard';
+ 
+ 
 
 const AllShowCase = () => {
+
+    const [data, setData] = useState([])
+    
+    useEffect(() => {
+        fetch('https://ibrahim-s.vercel.app')
+            .then(res => res.json())
+        .then(res=>setData(res))
+    }, [])
+    
     return (
-        <section className='mt-28'>
+        <section className=' mt-16 lg:mt-28'>
             <TitleBar title="My Projects" subTitle='lets see my Projects' />
-            <ShowCase1/>
-            <ShowCase2 />
-            <ShowCase3/>
+            {
+                data.map(value => <ShocaseCard key={Math.random()} obj={value} />)
+            }
         </section>
     );
 };

@@ -10,9 +10,9 @@ const Skill = () => {
             
             <div className="mt-11">
                 <h1 className="text-2xl font-semibold text-gray-800 ">Skills</h1>
-                <hr className="w-[10%]" />
+                <hr className="lg:w-[10%] w-24" />
             </div>
-            <div className="grid grid-cols-5 gap-10 px-5 mt-5">
+            <div className="grid lg:grid-cols-5 grid-cols-2 gap-5 lg:gap-10 lg:px-5 mt-5">
                 <SkillCard img='https://i.ibb.co/R3Z6b2G/js.png' name='JavaScript' shadowColor='shadow-yellow-400'/>
                 <SkillCard img='https://i.ibb.co/zP4jxFC/structure.png' name='React js' shadowColor='shadow-cyan-600'/>
                 <SkillCard img='https://i.ibb.co/yW8Rn7N/nextjs-256x153.png' name='Next js' shadowColor='shadow-gray-800'/>
@@ -28,9 +28,9 @@ const Skill = () => {
             </div>
             <div className="mt-11">
                 <h1 className="text-2xl font-semibold text-gray-800 ">Tools</h1>
-                <hr className="w-[10%]" />
+                <hr className="lg:w-[10%] w-24" />
             </div>
-            <div className="grid grid-cols-5 gap-10 px-5 mt-5">
+            <div className="grid grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-10 lg:px-5 mt-5">
                 <SkillCard img='https://i.ibb.co/4m1CfMB/pngwing-com-2.png' name='Git' shadowColor='shadow-orange-300' />
                 <SkillCard img='https://i.ibb.co/859fLfX/github.png' name='Github' shadowColor='shadow-cyan-500' />
                 <SkillCard img='https://i.ibb.co/PxjWbWL/pngwing-com-3.png' name='Vercel' shadowColor='shadow-gray-800' />
