@@ -1,0 +1,45 @@
+[
+    {
+    "name":"Photo school",
+    "about":"this is full stack photography related course platfrom Application.in this application has been itragation payment getway,JWT authorization... and has a Admin Pannle and instructors pannle. this application more user friendly Interface for browse",
+    "technologies":["React","MongoDB","express","Tailwind","Firebase Authentication","JWT","Stripe"],
+    "liveLink": "https://photo-school-2f7ad.web.app/",
+    "clientCode": "https://github.com/ibrahimRabbi/photo-school-client",
+    "serverCode": "https://github.com/ibrahimRabbi/photo-school-server",
+    "photos":["https://i.ibb.co/Tb65BZK/Screenshot-15.png","https://i.ibb.co/NTGgvHs/Screenshot-17.png","https://i.ibb.co/sJNMtQ2/Screenshot-18.png","https://i.ibb.co/f9sgnJF/Screenshot-21.png"]
+    },
+    {
+    "name":"Forest Lounge",
+    "about":"this is full stack photography related course platfrom Application.in this application has been itragation payment getway,JWT authorization... and has a Admin Pannle and instructors pannle. this application more user friendly Interface for browse",
+    "technologies":[
+      "React",
+      "MongoDB",
+      "express",
+      "Tailwind",
+      "Firebase Authentication",
+      "JWT",
+      "Stripe"
+    ],
+    "liveLink": "https://photo-school-2f7ad.web.app/",
+    "clientCode": "https://github.com/ibrahimRabbi/photo-school-client",
+    "serverCode": "https://github.com/ibrahimRabbi/photo-school-server",
+    "photos":["https://i.ibb.co/SK2hwfW/Screenshot-29.png","https://i.ibb.co/SX08ztn/Screenshot-30.png","https://i.ibb.co/jykQSQp/Screenshot-32.png","https://i.ibb.co/8byTnHY/Screenshot-31.png"]
+    },
+    {
+    "name":"toys Park",
+    "about":"this is full stack photography related course platfrom Application.in this application has been itragation payment getway,JWT authorization... and has a Admin Pannle and instructors pannle. this application more user friendly Interface for browse",
+    "technologies":[
+      "React",
+      "MongoDB",
+      "express",
+      "Tailwind",
+      "Firebase Authentication",
+      "JWT",
+      "Stripe"
+    ],
+    "liveLink": "https://practice-d7ed2.web.app/",
+    "clientCode": "https://github.com/ibrahimRabbi/Toys-park-client",
+    "serverCode": "https://github.com/ibrahimRabbi/Toys-park-server",
+    "photos":["https://i.ibb.co/pyx5YN8/Screenshot-22.png","https://i.ibb.co/X4pDk7s/Screenshot-26.png","https://i.ibb.co/f4Jq5G0/Screenshot-27.png","https://i.ibb.co/phkRFVv/Screenshot-28.png"]
+    }
+]

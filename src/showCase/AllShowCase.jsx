@@ -9,7 +9,7 @@ const AllShowCase = () => {
     const [data, setData] = useState([])
     
     useEffect(() => {
-        fetch('https://ibrahim-s.vercel.app')
+        fetch('./data.json')
             .then(res => res.json())
         .then(res=>setData(res))
     }, [])
